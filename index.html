@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/iconoir/css/iconoir.css">
+    <link rel="stylesheet" href="./public/css/style.css">
+    <title>Prodeep Institute</title>
+</head>
+
+<body class="pb-20">
+    <nav class="px-[35px] py-[20px] fixed z-20 right-0 left-0 top-0">
+        <div class="flex items-center justify-between">
+            <div class="flex gap-3 items-center">
+                <div class="w-[30px] h-[30px] bg-blue-700 rounded-full"></div>
+                <span class="font-display text-[18px] text-slate-900 font-[500]">Prodeep Institute</span>
+            </div>
+            <i id="nav-toggle" class="cursor-pointer iconoir-menu text-[24px] text-slate-700"></i>
+        </div>
+        <div id="nav-menus" class="hidden">
+            <ul class="text-[20px] space-y-3 pt-7 pb-4">
+                <li><a href="">About us</a></li>
+                <li><a href="">Our works</a></li>
+                <li><a href="">The team</a></li>
+                <li><a href="">Publication</a></li>
+                <li><a href="">Contact us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="bg-blue-100 pt-44 pb-20 relative overflow-hidden">
+        <div
+            class="w-[390px] h-[350px] absolute bottom-0 rounded-tl-[70%] rounded-tr-[50%] right-[-30px] bg-gradient-to-b from-blue-50 via-blue-50 to-white">
+        </div>
+        <div class="container m-auto flex flex-col gap-8 px-[35px] relative">
+            <h1>Supporting better policies</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo vel distinctio animi nostrum.</p>
+            <div>
+                <a href="" class="btn btn-primary">Our works</a>
+                <a href="" class="btn btn-secondary ml-2">About us</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex flex-col container px-[35px] gap-6 mt-10">
+        <img src="./src/img/illustrations/analysis.svg" alt="Our services">
+        <h2>Our services</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo vel distinctio animi nostrum.</p>
+
+        <div class="tab">
+            <div class="flex">
+                <div id="tab-1" class="tab-header px-[20px] py-[10px] text-blue-700 border-b-[1.5px] border-blue-700">
+                    Research</div>
+                <div id="tab-2" class="tab-header px-[20px] py-[10px] text-slate-600">Consultancy</div>
+            </div>
+            <div class="pl-[20px] py-5 h-[163px] overflow-y-scroll">
+                <ul id="tab-1-content" class="list-disc text-slate-800 space-y-2">
+                    <li>Review for fiscal policy</li>
+                    <li>Industrial studies</li>
+                    <li>Product development research</li>
+                    <li>Research on HRD</li>
+                    <li>Infrastructure studies</li>
+                    <li>Policy public discussion</li>
+                </ul>
+                <ul id="tab-2-content" class="list-disc text-slate-800 space-y-2 hidden">
+                    <li>Advocate for fiscal policy</li>
+                    <li>Industrial studies</li>
+                    <li>Product development research</li>
+                    <li>Research on HRD</li>
+                    <li>Infrastructure studies</li>
+                    <li>Policy public discussion</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="./public/js/script.js"></script>
+</body>
+
+</html>

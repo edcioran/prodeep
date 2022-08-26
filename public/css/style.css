@@ -778,6 +778,10 @@ input:focus,  textarea:focus {
   top: 50%;
 }
 
+.top-\[40\%\] {
+  top: 40%;
+}
+
 .z-10 {
   z-index: 10;
 }

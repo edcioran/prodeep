@@ -148,21 +148,21 @@ const templatesObject = {
             </div>
             <div class="flex gap-8 text-[20px] text-slate-800">
                 <ul class="space-y-2">
-                    <li><a href="" class="text-[20px]">Tentang</a></li>
-                    <li><a href="" class="text-[20px]">Project</a></li>
-                    <li><a href="" class="text-[20px]">Anggota</a></li>
+                    <li><a href="/Tentang.html" class="text-[20px]">Tentang</a></li>
+                    <li><a href="/Program.html" class="text-[20px]">Program</a></li>
+                    <li><a href="/Anggota.html" class="text-[20px]">Anggota</a></li>
                 </ul>
                 <ul class="space-y-2">
-                    <li><a href="" class="text-[20px]">Publikasi</a></li>
-                    <li><a href="" class="text-[20px]">Hubungi kami</a></li>
+                    <li><a href="/Publikasi.html" class="text-[20px]">Publikasi</a></li>
+                    <li><a href="/Kontak.html" class="text-[20px]">Hubungi kami</a></li>
                 </ul>
             </div>
             <div class="flex items-center justify-between">
                 <span class="text-slate-600 text-[14px]">© Prodeep Institute 2022.</span>
                 <ul class="flex items-center text-[24px] gap-4 text-slate-600 font-extralight">
-                    <li><i class="iconoir-instagram text-[24px] text-slate-500"></i></li>
-                    <li><i class="iconoir-facebook-squared text-[24px] text-slate-500"></i></li>
-                    <li><i class="iconoir-youtube text-[24px] text-slate-500"></i></li>
+                    <li><a href="https://www.instagram.com/prodeepins/"><i class="iconoir-instagram text-[24px] text-slate-500"></i></a></li>
+                    <li><a href="https://www.facebook.com/prodeepins.prodeepins"><i class="iconoir-facebook-squared text-[24px] text-slate-500"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCB-b03bpxkrG2WK8e-6x81g"><i class="iconoir-youtube text-[24px] text-slate-500"></i></a></li>
                 </ul>
             </div>
         </footer>

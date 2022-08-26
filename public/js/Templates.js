@@ -6,17 +6,16 @@ const templatesObject = {
         switch (page) {
             case 'Tentang.html':
                 return `
-                <nav class="px-[24px] py-[20px] fixed z-30 right-0 left-0 top-0">
-                    <div class="flex items-center justify-between">
+                <nav class="fixed z-30 right-0 left-0 top-0">
+                    <div class="duration-200 flex items-center justify-between z-30 px-[24px] py-[20px]">
                         <a href="/" class="flex gap-3 items-center">
                             <div class="w-[30px] h-[30px] bg-blue-700 rounded-full"></div>
                             <span class="font-display text-[20px] text-slate-900 font-[500]">Prodeep Institute</span>
                         </a>
                         <i id="nav-toggle" class="cursor-pointer iconoir-menu text-[24px] text-slate-700"></i>
                     </div>
-                    <div id="nav-menus" class="hidden">
-                        <div class="template" dataset-name="test" dataset-parameters=""></div>
-                        <ul class="space-y-5 pt-7 pb-4 text-slate-700">
+                    <div id="nav-menus" class="max-h-0 duration-200 overflow-hidden bg-white px-[24px] shadow">
+                        <ul class="space-y-5 pt-3 pb-6 text-slate-700">
                             <li><a href="" class="text-[24px] text-blue-700 underline">Tentang</a></li>
                             <li><a href="/Program.html" class="text-[24px]">Program</a></li>
                             <li><a href="/Anggota.html" class="text-[24px]">Anggota</a></li>
@@ -28,17 +27,16 @@ const templatesObject = {
                 `
             case 'Program.html':
                 return `
-                <nav class="px-[24px] py-[20px] fixed z-30 right-0 left-0 top-0">
-                    <div class="flex items-center justify-between">
+                <nav class="fixed z-30 right-0 left-0 top-0">
+                    <div class="duration-200 flex items-center justify-between z-30 px-[24px] py-[20px]">
                         <a href="/" class="flex gap-3 items-center">
                             <div class="w-[30px] h-[30px] bg-blue-700 rounded-full"></div>
                             <span class="font-display text-[20px] text-slate-900 font-[500]">Prodeep Institute</span>
                         </a>
                         <i id="nav-toggle" class="cursor-pointer iconoir-menu text-[24px] text-slate-700"></i>
                     </div>
-                    <div id="nav-menus" class="hidden">
-                        <div class="template" dataset-name="test" dataset-parameters=""></div>
-                        <ul class="space-y-5 pt-7 pb-4 text-slate-700">
+                    <div id="nav-menus" class="max-h-0 duration-200 overflow-hidden bg-white px-[24px] shadow">
+                        <ul class="space-y-5 pt-3 pb-6 text-slate-700">
                             <li><a href="/Tentang.html" class="text-[24px]">Tentang</a></li>
                             <li><a href="" class="text-[24px] text-blue-700 underline">Program</a></li>
                             <li><a href="/Anggota.html" class="text-[24px]">Anggota</a></li>
@@ -50,17 +48,16 @@ const templatesObject = {
                 `
             case 'Anggota.html':
                 return `
-                <nav class="px-[24px] py-[20px] fixed z-30 right-0 left-0 top-0">
-                    <div class="flex items-center justify-between">
+                <nav class="fixed z-30 right-0 left-0 top-0">
+                    <div class="duration-200 flex items-center justify-between z-30 px-[24px] py-[20px]">
                         <a href="/" class="flex gap-3 items-center">
                             <div class="w-[30px] h-[30px] bg-blue-700 rounded-full"></div>
                             <span class="font-display text-[20px] text-slate-900 font-[500]">Prodeep Institute</span>
                         </a>
                         <i id="nav-toggle" class="cursor-pointer iconoir-menu text-[24px] text-slate-700"></i>
                     </div>
-                    <div id="nav-menus" class="hidden">
-                        <div class="template" dataset-name="test" dataset-parameters=""></div>
-                        <ul class="space-y-5 pt-7 pb-4 text-slate-700">
+                    <div id="nav-menus" class="max-h-0 duration-200 overflow-hidden bg-white px-[24px] shadow">
+                        <ul class="space-y-5 pt-3 pb-6 text-slate-700">
                             <li><a href="/Tentang.html" class="text-[24px]">Tentang</a></li>
                             <li><a href="/Program.html" class="text-[24px]">Program</a></li>
                             <li><a href="" class="text-[24px] text-blue-700 underline">Anggota</a></li>
@@ -72,17 +69,16 @@ const templatesObject = {
                 `
             case 'Publikasi.html':
                 return `
-                <nav class="px-[24px] py-[20px] fixed z-30 right-0 left-0 top-0">
-                    <div class="flex items-center justify-between">
+                <nav class="fixed z-30 right-0 left-0 top-0">
+                    <div class="duration-200 flex items-center justify-between z-30 px-[24px] py-[20px]">
                         <a href="/" class="flex gap-3 items-center">
                             <div class="w-[30px] h-[30px] bg-blue-700 rounded-full"></div>
                             <span class="font-display text-[20px] text-slate-900 font-[500]">Prodeep Institute</span>
                         </a>
                         <i id="nav-toggle" class="cursor-pointer iconoir-menu text-[24px] text-slate-700"></i>
                     </div>
-                    <div id="nav-menus" class="hidden">
-                        <div class="template" dataset-name="test" dataset-parameters=""></div>
-                        <ul class="space-y-5 pt-7 pb-4 text-slate-700">
+                    <div id="nav-menus" class="max-h-0 duration-200 overflow-hidden bg-white px-[24px] shadow">
+                        <ul class="space-y-5 pt-3 pb-6 text-slate-700">
                             <li><a href="/Tentang.html" class="text-[24px]">Tentang</a></li>
                             <li><a href="/Program.html" class="text-[24px]">Program</a></li>
                             <li><a href="/Anggota.html" class="text-[24px]">Anggota</a></li>
@@ -94,17 +90,16 @@ const templatesObject = {
                 `
             case 'Kontak.html':
                 return `
-                <nav class="px-[24px] py-[20px] fixed z-30 right-0 left-0 top-0">
-                    <div class="flex items-center justify-between">
+                <nav class="fixed z-30 right-0 left-0 top-0">
+                    <div class="duration-200 flex items-center justify-between z-30 px-[24px] py-[20px]">
                         <a href="/" class="flex gap-3 items-center">
                             <div class="w-[30px] h-[30px] bg-blue-700 rounded-full"></div>
                             <span class="font-display text-[20px] text-slate-900 font-[500]">Prodeep Institute</span>
                         </a>
                         <i id="nav-toggle" class="cursor-pointer iconoir-menu text-[24px] text-slate-700"></i>
                     </div>
-                    <div id="nav-menus" class="hidden">
-                        <div class="template" dataset-name="test" dataset-parameters=""></div>
-                        <ul class="space-y-5 pt-7 pb-4 text-slate-700">
+                    <div id="nav-menus" class="max-h-0 duration-200 overflow-hidden bg-white px-[24px] shadow">
+                        <ul class="space-y-5 pt-3 pb-6 text-slate-700">
                             <li><a href="/Tentang.html" class="text-[24px]">Tentang</a></li>
                             <li><a href="/Program.html" class="text-[24px]">Program</a></li>
                             <li><a href="/Anggota.html" class="text-[24px]">Anggota</a></li>
@@ -116,17 +111,16 @@ const templatesObject = {
                 `
             default:
                 return `
-                <nav class="px-[24px] py-[20px] fixed z-30 right-0 left-0 top-0">
-                    <div class="flex items-center justify-between">
+                <nav class="fixed z-30 right-0 left-0 top-0">
+                    <div class="duration-200 flex items-center justify-between z-30 px-[24px] py-[20px]">
                         <a href="/" class="flex gap-3 items-center">
                             <div class="w-[30px] h-[30px] bg-blue-700 rounded-full"></div>
                             <span class="font-display text-[20px] text-slate-900 font-[500]">Prodeep Institute</span>
                         </a>
                         <i id="nav-toggle" class="cursor-pointer iconoir-menu text-[24px] text-slate-700"></i>
                     </div>
-                    <div id="nav-menus" class="hidden">
-                        <div class="template" dataset-name="test" dataset-parameters=""></div>
-                        <ul class="space-y-5 pt-7 pb-4 text-slate-700">
+                    <div id="nav-menus" class="max-h-0 duration-200 overflow-hidden bg-white px-[24px] shadow">
+                        <ul class="space-y-5 pt-3 pb-6 text-slate-700">
                             <li><a href="/Tentang.html" class="text-[24px]">Tentang</a></li>
                             <li><a href="/Program.html" class="text-[24px]">Program</a></li>
                             <li><a href="/Anggota.html" class="text-[24px]">Anggota</a></li>

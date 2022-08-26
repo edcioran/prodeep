@@ -42,4 +42,7 @@
     .tab-header,.accordion-header,.file-title,.people-card-overlay {
         @apply cursor-pointer
     }
+    .people-card-overlay {
+        @apply rounded hover:bg-gray-400 hover:opacity-10
+    }
 }

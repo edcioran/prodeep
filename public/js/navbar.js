@@ -1,55 +1,53 @@
-export const navbarExpand = () => {
-    const nav = document.querySelector('nav')
-    const navMenus = document.querySelector('#nav-menus')
-    const navToggle = document.querySelector('#nav-toggle')
+const navbar = document.querySelector('nav')
+const closedNav = navbar.firstElementChild
+const navToggle = document.querySelector('#nav-toggle')
+const navMenus = document.querySelector('#nav-menus')
 
-    navToggle.addEventListener("click", () => {
-        const scrollPos = window.scrollY;
+navToggle.addEventListener("click", ()=>{
+    const scrollPos = window.scrollY;
 
-        if (nav.classList.contains('bg-white')) {
-            if (scrollPos <= 50) {
-                navMenus.classList.toggle('hidden');
-                nav.classList.toggle('bg-white')
-                nav.classList.toggle('shadow')
-            } else navMenus.classList.toggle('hidden')
+    if (closedNav.classList.contains('bg-white')) {
+        if (scrollPos <= 50) {
+            navMenus.classList.toggle('max-h-[300px]')
+            navMenus.classList.toggle('max-h-0')
+            setTimeout(()=>{
+                closedNav.classList.toggle('bg-white')
+                closedNav.classList.toggle('shadow')
+            }, 200)
+        } else {
+            navMenus.classList.toggle('max-h-0')
+            navMenus.classList.toggle('max-h-[300px]')
         }
-        else {
-            navMenus.classList.toggle('hidden')
-            nav.classList.toggle('bg-white')
-            nav.classList.toggle('shadow')
-        }
-    })
-}
+    }
+    else {
+        navMenus.classList.toggle('max-h-0')
+        navMenus.classList.toggle('max-h-[300px]')
+        closedNav.classList.toggle('bg-white')
+        closedNav.classList.toggle('shadow')
+    }
+})
 
-export const navbarScroll = () => {
-    const nav = document.querySelector('nav')
-    const navMenus = document.querySelector('#nav-menus')
-    checkNavbarScroll(nav, navMenus)
-
-    document.addEventListener("scroll", () => {
-        checkNavbarScroll(nav, navMenus)
-    })
-}
-
-export const checkNavbarScroll = (nav, navMenus) => {
+const checkNavbarScroll = () => {
     const scrollPos = window.scrollY;
 
     if (scrollPos >= 50) {
 
-        if (nav.classList.contains('bg-white')) { }
+        if (closedNav.classList.contains('bg-white')) { }
         else {
-            nav.classList.toggle('bg-white')
-            nav.classList.toggle('shadow')
+            closedNav.classList.toggle('bg-white')
+            closedNav.classList.toggle('shadow')
         }
     }
     else {
-        if (nav.classList.contains('bg-white')) {
-            if (navMenus.classList.contains('hidden')) {
-                nav.classList.toggle('bg-white')
-                nav.classList.toggle('shadow')
+        if (closedNav.classList.contains('bg-white')) {
+            if (navMenus.classList.contains('max-h-0')) {
+                closedNav.classList.toggle('bg-white')
+                closedNav.classList.toggle('shadow')
             } else { }
         } else {
 
         }
     }
 }
+
+document.addEventListener("scroll", checkNavbarScroll)

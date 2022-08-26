@@ -43,7 +43,7 @@ const createCard = (data, id) => {
 
 document.addEventListener("click", (e) => {
     if (e.target.classList.contains('people-card-overlay')) {
-        bio.classList.replace('-z-10', 'z-30')
+        bio.classList.replace('-z-10', 'z-40')
         bio.classList.replace('opacity-0', 'opacity-100')
         overlay.classList.toggle('hidden')
         bioData(e.target.parentElement)
@@ -53,7 +53,7 @@ document.addEventListener("click", (e) => {
 overlay.addEventListener("click", () => {
     overlay.classList.toggle('hidden')
     bio.classList.replace('opacity-100', 'opacity-0')
-    bio.classList.replace('z-30', '-z-10')
+    bio.classList.replace('z-40', '-z-10')
 })
 
 const bioData = (card)=>{

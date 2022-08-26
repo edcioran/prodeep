@@ -14,7 +14,7 @@ const templatesObject = {
                         </a>
                         <i id="nav-toggle" class="cursor-pointer iconoir-menu text-[24px] text-slate-700"></i>
                     </div>
-                    <div id="nav-menus" class="max-h-0 duration-200 overflow-hidden bg-white px-[24px] shadow">
+                    <div id="nav-menus" class="max-h-0 duration-200 overflow-hidden bg-white px-[24px] shadow-[#94a3b8_0_10px_15px_-15px]">
                         <ul class="space-y-5 pt-3 pb-6 text-slate-700">
                             <li><a href="" class="text-[24px] text-blue-700 underline">Tentang</a></li>
                             <li><a href="/Program.html" class="text-[24px]">Program</a></li>
@@ -35,7 +35,7 @@ const templatesObject = {
                         </a>
                         <i id="nav-toggle" class="cursor-pointer iconoir-menu text-[24px] text-slate-700"></i>
                     </div>
-                    <div id="nav-menus" class="max-h-0 duration-200 overflow-hidden bg-white px-[24px] shadow">
+                    <div id="nav-menus" class="max-h-0 duration-200 overflow-hidden bg-white px-[24px] shadow-[#94a3b8_0_10px_15px_-15px]">
                         <ul class="space-y-5 pt-3 pb-6 text-slate-700">
                             <li><a href="/Tentang.html" class="text-[24px]">Tentang</a></li>
                             <li><a href="" class="text-[24px] text-blue-700 underline">Program</a></li>
@@ -56,7 +56,7 @@ const templatesObject = {
                         </a>
                         <i id="nav-toggle" class="cursor-pointer iconoir-menu text-[24px] text-slate-700"></i>
                     </div>
-                    <div id="nav-menus" class="max-h-0 duration-200 overflow-hidden bg-white px-[24px] shadow">
+                    <div id="nav-menus" class="max-h-0 duration-200 overflow-hidden bg-white px-[24px] shadow-[#94a3b8_0_10px_15px_-15px]">
                         <ul class="space-y-5 pt-3 pb-6 text-slate-700">
                             <li><a href="/Tentang.html" class="text-[24px]">Tentang</a></li>
                             <li><a href="/Program.html" class="text-[24px]">Program</a></li>
@@ -77,7 +77,7 @@ const templatesObject = {
                         </a>
                         <i id="nav-toggle" class="cursor-pointer iconoir-menu text-[24px] text-slate-700"></i>
                     </div>
-                    <div id="nav-menus" class="max-h-0 duration-200 overflow-hidden bg-white px-[24px] shadow">
+                    <div id="nav-menus" class="max-h-0 duration-200 overflow-hidden bg-white px-[24px] shadow-[#94a3b8_0_10px_15px_-15px]">
                         <ul class="space-y-5 pt-3 pb-6 text-slate-700">
                             <li><a href="/Tentang.html" class="text-[24px]">Tentang</a></li>
                             <li><a href="/Program.html" class="text-[24px]">Program</a></li>
@@ -98,7 +98,7 @@ const templatesObject = {
                         </a>
                         <i id="nav-toggle" class="cursor-pointer iconoir-menu text-[24px] text-slate-700"></i>
                     </div>
-                    <div id="nav-menus" class="max-h-0 duration-200 overflow-hidden bg-white px-[24px] shadow">
+                    <div id="nav-menus" class="max-h-0 duration-200 overflow-hidden bg-white px-[24px] shadow-[#94a3b8_0_10px_15px_-15px]">
                         <ul class="space-y-5 pt-3 pb-6 text-slate-700">
                             <li><a href="/Tentang.html" class="text-[24px]">Tentang</a></li>
                             <li><a href="/Program.html" class="text-[24px]">Program</a></li>
@@ -119,7 +119,7 @@ const templatesObject = {
                         </a>
                         <i id="nav-toggle" class="cursor-pointer iconoir-menu text-[24px] text-slate-700"></i>
                     </div>
-                    <div id="nav-menus" class="max-h-0 duration-200 z-20 overflow-hidden bg-white px-[24px] shadow">
+                    <div id="nav-menus" class="max-h-0 duration-200 overflow-hidden bg-white px-[24px] shadow-[#94a3b8_0_10px_15px_-15px]">
                         <ul class="space-y-5 pt-3 pb-6 text-slate-700">
                             <li><a href="/Tentang.html" class="text-[24px]">Tentang</a></li>
                             <li><a href="/Program.html" class="text-[24px]">Program</a></li>
@@ -197,7 +197,7 @@ const templatesObject = {
                 <button type="submit" class="btn btn-primary mt-3">Submit form</button>
             </form>
         </div>
-        <div id="overlay" class="fixed top-0 bottom-0 right-0 left-0 bg-black opacity-10 z-20 hidden"></div>
+        <div id="overlay" class="fixed top-0 bottom-0 right-0 left-0 bg-black opacity-10 z-30 hidden"></div>
         `
     }
 }

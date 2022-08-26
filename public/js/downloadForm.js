@@ -7,7 +7,7 @@ export const downloadForm = () => {
         if (e.target.classList.contains('file-title')) {
             overlay.classList.toggle('hidden')
             form.style.opacity = "100%"
-            form.style.zIndex = 30
+            form.style.zIndex = 40
             idInput.value = e.target.parentElement.previousElementSibling.previousElementSibling.textContent
 
             submitForm(e.target.parentElement.previousElementSibling.previousElementSibling.textContent)

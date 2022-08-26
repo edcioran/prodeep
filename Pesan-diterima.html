@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/iconoir/css/iconoir.css">
+    <link rel="stylesheet" href="./public/css/style.css">
+    <title>Pesan diterima! – Prodeep Institute</title>
+</head>
+
+<body>
+    <div class="template" data-name="template_navbar" data-parameters=""></div>
+
+    <section class="flex flex-col px-[35px] mt-[100px] gap-6 mb-12">
+        <div class="absolute top-0 right-0 left-0 h-[270px] bg-blue-100 -z-10"></div>
+        <img src="./src/img/illustrations/bankdeal.svg" alt="bankdeal">
+        <h1>Terima kasih!</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo vel distinctio animi nostrum.</p>
+        <p>Kembali ke halaman utama dalam <span id="counter">5</span></p>
+    </section>
+
+    <div class="template" data-name="template_footer" data-parameters=""></div>
+
+    <script type="module" src="./public/js/script.js"></script>
+    <script src="/public/js/Templates.js"></script>
+    <script>
+        const counter = document.querySelector('#counter')
+        let counterValue = 4;
+        setInterval(() => {
+            counter.textContent = counterValue
+            if (counterValue > 0) counterValue -= 1
+        }, 1000)
+        setTimeout(() => window.location.href = "/", 6000)
+    </script>
+</body>
+
+</html>

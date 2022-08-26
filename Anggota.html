@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/iconoir/css/iconoir.css">
+    <link rel="stylesheet" href="./public/css/style.css">
+    <title>Anggota – Prodeep Institute</title>
+</head>
+
+<body>
+    <div class="template" data-name="template_navbar" data-parameters=""></div>
+    <section class="flex flex-col px-[24px] mt-[100px] pb-7 gap-6 bg-white">
+        <div class="absolute top-0 right-0 left-0 h-[270px] bg-blue-100 z-10"></div>
+        <img src="./src/img/illustrations/bankdeal.svg" alt="bankdeal" class="z-20">
+        <h1>Anggota Tim</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo vel distinctio animi nostrum.</p>
+        <div id="people-slider" class="overflow-x-scroll flex gap-3"></div>
+        <div id="person-data"></div>
+    </section>
+    <div class="template" data-name="template_footer" data-parameters=""></div>
+    
+    <div id="bio" class="px-[24px] py-8 flex flex-col gap-5 fixed top-[26%] bottom-0 bg-white overflow-y-scroll shadow-[#94a3b8_0_3px_10px] opacity-0 -z-10 transition">
+        <div class="block">
+            <div class="w-20 h-20 rounded-full bg-center bg-cover border-2"></div>
+        </div>
+        <h2></h2>
+        <p></p>
+    </div>
+    <div id="overlay-people" class="fixed top-0 bottom-0 right-0 left-0 bg-black opacity-10 z-20 hidden"></div>
+
+    <script type="module" src="./public/js/script.js"></script>
+    <script src="/public/js/Templates.js"></script>
+    <script src="/public/js/team.js"></script>
+
+    <style>
+        /* Hide scrollbar for Chrome, Safari and Opera */
+        #people-slider::-webkit-scrollbar {
+            display: none;
+        }
+
+        /* Hide scrollbar for IE, Edge and Firefox */
+        #people-slider {
+            -ms-overflow-style: none;
+            /* IE and Edge */
+            scrollbar-width: none;
+            /* Firefox */
+        }
+    </style>
+</body>
+
+</html>

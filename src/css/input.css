@@ -4,16 +4,22 @@
 
 @layer base {
     *{
-        @apply font-body
+        @apply font-body text-[18px]
     }
     h1 {
-        @apply font-display text-[39.06px] leading-tight text-slate-900;
+        @apply font-display text-[47px] leading-tight text-slate-900;
     }
     h2 {
         @apply font-display text-[31.25px] leading-tight text-slate-900;
     }
-    p {
-        @apply font-body text-[16px] leading-[130%] text-slate-800;
+    h3 {
+        @apply font-display text-[22px] leading-tight text-slate-900
+    }
+    p, span, li {
+        @apply font-body text-[18px] leading-[130%] text-slate-800;
+    }
+    input, textarea {
+        @apply text-[18px] text-slate-800 border-2 rounded py-2 px-2 focus:outline-blue-300 invalid:border-red-300
     }
 }
 
@@ -27,7 +33,13 @@
     .btn-secondary{
         @apply bg-white text-slate-800 hover:bg-gray-100;
     }
-    .tab-header {
+    .textbtn-icon{
+        @apply flex items-center gap-1 hover:bg-gray-100 rounded-sm
+    }
+    .textbtn-primary {
+        @apply text-blue-700
+    }
+    .tab-header,.accordion-header,.file-title,.people-card-overlay {
         @apply cursor-pointer
     }
 }

@@ -15,50 +15,58 @@
     <title>Prodeep Institute</title>
 </head>
 
-<body class="pb-20">
-    <nav class="px-[35px] py-[20px] fixed z-20 right-0 left-0 top-0">
-        <div class="flex items-center justify-between">
-            <div class="flex gap-3 items-center">
-                <div class="w-[30px] h-[30px] bg-blue-700 rounded-full"></div>
-                <span class="font-display text-[18px] text-slate-900 font-[500]">Prodeep Institute</span>
-            </div>
-            <i id="nav-toggle" class="cursor-pointer iconoir-menu text-[24px] text-slate-700"></i>
-        </div>
-        <div id="nav-menus" class="hidden">
-            <ul class="text-[20px] space-y-3 pt-7 pb-4">
-                <li><a href="">About us</a></li>
-                <li><a href="">Our works</a></li>
-                <li><a href="">The team</a></li>
-                <li><a href="">Publication</a></li>
-                <li><a href="">Contact us</a></li>
-            </ul>
-        </div>
-    </nav>
+<body>
+    <div class="template" data-name="template_navbar" data-parameters=""></div>
 
-    <div class="bg-blue-100 pt-44 pb-20 relative overflow-hidden">
+    <div class="bg-blue-100 pt-40 pb-20 relative overflow-hidden">
         <div
-            class="w-[390px] h-[350px] absolute bottom-0 rounded-tl-[70%] rounded-tr-[50%] right-[-30px] bg-gradient-to-b from-blue-50 via-blue-50 to-white">
+            class="w-[390px] h-[500px] absolute bottom-0 rounded-tl-[70%] rounded-tr-[50%] right-0 left-0 bg-gradient-to-b from-blue-50 via-blue-50 to-white">
         </div>
-        <div class="container m-auto flex flex-col gap-8 px-[35px] relative">
-            <h1>Supporting better policies</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo vel distinctio animi nostrum.</p>
-            <div>
-                <a href="" class="btn btn-primary">Our works</a>
-                <a href="" class="btn btn-secondary ml-2">About us</a>
+        <div class="container m-auto flex flex-col gap-8 px-[24px] relative">
+            <h1>Mendorong kebijakan berkualitas</h1>
+            <p>Lorem, ipsum dolor sit amet conse ctetur adipisicing elit. Nemo vel distinctio animi nostrum.</p>
+            <div class="flex flex-wrap gap-3">
+                <a href="" class="btn btn-primary">Kerja kami</a>
+                <a href="/Tentang.html" class="btn btn-secondary">Tentang kami</a>
             </div>
         </div>
     </div>
 
-    <div class="flex flex-col container px-[35px] gap-6 mt-10">
+    <div class="bg-white flex flex-col container px-[24px] gap-6 mt-5">
         <img src="./src/img/illustrations/analysis.svg" alt="Our services">
-        <h2>Our services</h2>
+        <h2>Apa yang kami lakukan?</h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo vel distinctio animi nostrum.</p>
 
-        <div class="tab">
+        <div class="flex flex-col gap-3">
+            <div class="flex flex-col gap-3 border rounded px-4 py-3 shadow-sm">
+                <div class="flex gap-3 items-center">
+                    <div class="flex items-center justify-center p-[7px] bg-blue-200 rounded-full text-blue-800"><i class="iconoir-rocket text-[18px]"></i></div>
+                    <span class="font-semibold">Seminar & training</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet conse ctetur, adipisicing elit. Vitae nesc iunt expedita.</p>
+            </div>
+            <div class="flex flex-col gap-3 border rounded px-4 py-3 shadow-sm">
+                <div class="flex gap-3 items-center">
+                    <div class="flex items-center justify-center p-2 bg-teal-200 rounded-full text-teal-800"><i class="iconoir-edit-pencil text-[16px]"></i></div>
+                    <span class="font-semibold">Riset & kajian</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet conse ctetur, adipisicing elit. Vitae nesc iunt expedita.</p>
+            </div>
+            <div class="flex flex-col gap-3 border rounded px-4 py-3 shadow-sm">
+                <div class="flex gap-3 items-center">
+                    <div class="flex items-center justify-center p-2 bg-violet-200 rounded-full text-violet-800"><i class="iconoir-group text-[16px]"></i></div>
+                    <span class="font-semibold">Konsulting</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet conse ctetur, adipisicing elit. Vitae nesc iunt expedita.</p>
+            </div>
+            <a href="" class="textbtn-icon textbtn-primary self-end mt-2">Kerja kami<i class="iconoir-arrow-right"></i></a>
+        </div>
+
+        <!-- <div class="tab">
             <div class="flex">
                 <div id="tab-1" class="tab-header px-[20px] py-[10px] text-blue-700 border-b-[1.5px] border-blue-700">
-                    Research</div>
-                <div id="tab-2" class="tab-header px-[20px] py-[10px] text-slate-600">Consultancy</div>
+                    Penelitian</div>
+                <div id="tab-2" class="tab-header px-[20px] py-[10px] text-slate-600">Konsulting</div>
             </div>
             <div class="pl-[20px] py-5 h-[163px] overflow-y-scroll">
                 <ul id="tab-1-content" class="list-disc text-slate-800 space-y-2">
@@ -78,10 +86,71 @@
                     <li>Policy public discussion</li>
                 </ul>
             </div>
+        </div> -->
+        
+        <!-- <h3 class="mt-5">Area riset kami</h3>
+        <div class="accordion border-t-[1.25px]">
+            <div class="flex items-center justify-between py-2 relative border-b-[1.25px]">
+                <div id="accordion-1" class="accordion-header absolute top-0 right-0 left-0 bottom-0"></div>
+                <span class="">Corporate governance</span>
+                <i class="iconoir-nav-arrow-down"></i>
+            </div>
+            <div id="accordion-1-content" class="accordion-content py-2 hidden">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium eveniet repellat in suscipit? Sit et quibusdam pariatur quas, mollitia cupiditate eligendi laudantium aliquam ab ad molestias impedit explicabo doloremque?</p>
+            </div>
+
+            <div class="flex items-center justify-between py-2 relative border-b-[1.25px]">
+                <div id="accordion-2" class="accordion-header absolute top-0 right-0 left-0 bottom-0"></div>
+                <span class="">State-owned assets</span>
+                <i class="iconoir-nav-arrow-down"></i>
+            </div>
+            <div id="accordion-2-content" class="accordion-content py-2 hidden">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium eveniet repellat in suscipit? Sit et quibusdam pariatur quas, mollitia cupiditate eligendi laudantium aliquam ab ad molestias impedit explicabo doloremque?</p>
+            </div>
+
+            <div class="flex items-center justify-between py-2 relative border-b-[1.25px]">
+                <div id="accordion-3" class="accordion-header absolute top-0 right-0 left-0 bottom-0"></div>
+                <span class="">Infrastructure & housing</span>
+                <i class="iconoir-nav-arrow-down"></i>
+            </div>
+            <div id="accordion-3-content" class="accordion-content py-2 hidden">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium eveniet repellat in suscipit? Sit et quibusdam pariatur quas, mollitia cupiditate eligendi laudantium aliquam ab ad molestias impedit explicabo doloremque?</p>
+            </div>
         </div>
+        <a href="" class="textbtn-icon textbtn-primary self-end">Lebih banyak<i class="iconoir-arrow-right"></i></a> -->
     </div>
 
+    <div class="bg-white flex flex-col container px-[24px] gap-6 mt-20">
+        <img src="./src/img/illustrations/recruitment.svg" alt="Recruitment">
+        <h2>Beranggotakan ekspert dan praktisi</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo vel distinctio animi nostrum.</p>
+        <a href="" class="btn btn-primary self-start">Lihat anggota</a>
+    </div>
+
+    <div class="px-[24px] container flex flex-col gap-5 mt-14 bg-slate-50 py-9">
+        <h2>Publikasi terbaru</h2>
+        <div id="displayer"></div>
+        <a href="" class="textbtn-icon textbtn-primary self-end">Lebih banyak<i class="iconoir-arrow-right"></i></a>
+    </div>
+
+    
+    <div class="template" data-name="template_download_form" data-parameters=""></div>
+    <div class="template" data-name="template_footer" data-parameters=""></div>
+
     <script type="module" src="./public/js/script.js"></script>
+    <script src="./public/js/postsDisplayer.js"></script>
+    <script src="/public/js/Templates.js"></script>
+    <style>
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+  
+        input[type=number] {
+            -moz-appearance: textfield;
+        }
+    </style>
 </body>
 
 </html>

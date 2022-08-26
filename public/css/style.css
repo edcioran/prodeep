@@ -774,6 +774,10 @@ input:focus,  textarea:focus {
   left: -1rem;
 }
 
+.top-\[50\%\] {
+  top: 50%;
+}
+
 .z-10 {
   z-index: 10;
 }

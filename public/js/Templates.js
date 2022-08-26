@@ -170,7 +170,7 @@ const templatesObject = {
     },
     template_download_form: function () {
         return `
-        
+        <div id="overlay" class=""></div>
         <div id="download-form" class="opacity-0 -z-10 bg-white fixed bottom-0 left-0 right-0 top-[30%] transition overflow-y-scroll px-[24px] py-9 flex flex-col gap-8 shadow-[#94a3b8_0_3px_10px]">
         <h2>Lengkapi form untuk unduh publikasi</h2>
         <form action="" class="flex flex-col gap-3" name="download-form">

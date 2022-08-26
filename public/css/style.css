@@ -1005,6 +1005,10 @@ input:focus,  textarea:focus {
   overflow: hidden;
 }
 
+.overflow-scroll {
+  overflow: scroll;
+}
+
 .overflow-x-scroll {
   overflow-x: scroll;
 }
@@ -1252,6 +1256,10 @@ input:focus,  textarea:focus {
 
 .pb-4 {
   padding-bottom: 1rem;
+}
+
+.pt-9 {
+  padding-top: 2.25rem;
 }
 
 .font-display {

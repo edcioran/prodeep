@@ -746,6 +746,10 @@ input:focus,  textarea:focus {
   left: 0.75rem;
 }
 
+.top-\[30\%\] {
+  top: 30%;
+}
+
 .z-10 {
   z-index: 10;
 }

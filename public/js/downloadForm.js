@@ -36,7 +36,7 @@ export const submitForm = (id) => {
         fetch(scriptURL, { method: 'POST', body: new FormData(form) })
             .then(response => {
                 console.log('Success!', response)
-                window.location.href = `/Download.html?id=${id}`
+                window.location.href = `/Pesan-diterima.html`
             })
             .catch(error => console.error('Error!', error.message))
     })

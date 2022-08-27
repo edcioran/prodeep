@@ -18,7 +18,7 @@ const displayPosts = (id, src, count) => {
                 for (let i = publications.length - 1; i >= publications.length - acount; i--) {
                     if(i>0) {
                         const pub = publications[i].c
-                        where.append(createPost(pub[0].v, pub[1].v, pub[2].v, id))
+                        where.append(createPost(pub[0].v, pub[1].v, pub[2].v, i))
                     }
                 }
             })

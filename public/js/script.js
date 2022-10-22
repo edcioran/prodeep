@@ -8,4 +8,4 @@ downloadForm()
 
 if(document.querySelector('#overlay')) overlayClick()
 
-// document.addEventListener("click", e => console.log(e.target))
+document.addEventListener("click", e => console.log(e.target))

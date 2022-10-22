@@ -3,16 +3,16 @@ export const downloadForm = () => {
     const overlay = document.querySelector('#overlay')
     const idInput = document.querySelector('#idinput')
 
-    document.addEventListener("click", e => {
-        if (e.target.classList.contains('file-title')) {
-            overlay.classList.toggle('hidden')
-            form.style.opacity = "100%"
-            form.style.zIndex = 40
-            idInput.value = e.target.parentElement.previousElementSibling.previousElementSibling.textContent
+    // document.addEventListener("click", e => {
+    //     if (e.target.classList.contains('file-title')) {
+    //         overlay.classList.toggle('hidden')
+    //         form.style.opacity = "100%"
+    //         form.style.zIndex = 40
+    //         idInput.value = e.target.parentElement.previousElementSibling.previousElementSibling.textContent
 
-            submitForm(e.target.parentElement.previousElementSibling.previousElementSibling.textContent)
-        }
-    })
+    //         submitForm(e.target.parentElement.previousElementSibling.previousElementSibling.textContent)
+    //     }
+    // })
 
 }
 

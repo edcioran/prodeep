@@ -40,7 +40,7 @@ const createPost = (date, type, title, id) => {
     const adate = document.createElement('span')
     const wrapper = document.createElement('div')
     const icon = document.createElement('i')
-    const atitle = document.createElement('span')
+    const atitle = document.createElement('a')
     const aId = document.createElement('span')
 
     //Assigning class
@@ -50,6 +50,8 @@ const createPost = (date, type, title, id) => {
     icon.classList.add('text-slate-700', 'text-[20px]')
     atitle.classList.add('file-title')
     aId.classList.add('hidden')
+
+    atitle.href = `\\Unduh.html?id=${id}`
 
     //Assigning contents
     adate.textContent = date

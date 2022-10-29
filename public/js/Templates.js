@@ -4,7 +4,7 @@ const templatesObject = {
         const page = url.split('/')[3]
 
         switch (page) {
-            case 'Tentang.html':
+            case 'tentang':
                 return `
                 <nav class="fixed z-30 right-0 left-0 top-0">
                     <div class="duration-200 flex items-center justify-between z-30 px-[24px] py-[20px]">
@@ -25,7 +25,7 @@ const templatesObject = {
                     </div>
                 </nav>
                 `
-            case 'Program.html':
+            case 'program':
                 return `
                 <nav class="fixed z-30 right-0 left-0 top-0">
                     <div class="duration-200 flex items-center justify-between z-30 px-[24px] py-[20px]">
@@ -38,7 +38,7 @@ const templatesObject = {
                     <div id="nav-menus" class="max-h-0 duration-200 overflow-hidden bg-white px-[24px] shadow-[#94a3b8_0_10px_15px_-15px]">
                         <ul class="space-y-4 pt-3 pb-6 text-slate-700">
                             <li><a href="/Tentang.html" class="text-[18px]">Tentang</a></li>
-                            <li><a href="" class="text-[24px] text-blue-700 underline">Program</a></li>
+                            <li><a href="" class="text-[18px] text-blue-700 underline">Program</a></li>
                             <li><a href="/Anggota.html" class="text-[18px]">Anggota</a></li>
                             <li><a href="/Publikasi.html" class="text-[18px]">Publikasi</a></li>
                             <li><a href="/Kontak.html" class="text-[18px]">Hubungi kami</a></li>
@@ -46,7 +46,7 @@ const templatesObject = {
                     </div>
                 </nav>
                 `
-            case 'Anggota.html':
+            case 'anggota':
                 return `
                 <nav class="fixed z-30 right-0 left-0 top-0">
                     <div class="duration-200 flex items-center justify-between z-30 px-[24px] py-[20px]">
@@ -67,7 +67,7 @@ const templatesObject = {
                     </div>
                 </nav>
                 `
-            case 'Publikasi.html':
+            case 'publikasi':
                 return `
                 <nav class="fixed z-30 right-0 left-0 top-0">
                     <div class="duration-200 flex items-center justify-between z-30 px-[24px] py-[20px]">
@@ -88,7 +88,7 @@ const templatesObject = {
                     </div>
                 </nav>
                 `
-            case 'Kontak.html':
+            case 'kontak':
                 return `
                 <nav class="fixed z-30 right-0 left-0 top-0">
                     <div class="duration-200 flex items-center justify-between z-30 px-[24px] py-[20px]">
